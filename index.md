@@ -1,3 +1,13 @@
+---
+layout: home
+title:  "Home Page"
+date:   2020-07-05
+---
+
+## Welcome to my Blog!
+
+This is where my articles exist.
+
 <ul>
   {% for post in site.posts %}
     <li>
@@ -5,12 +15,6 @@
     </li>
   {% endfor %}
 </ul>
-
-## Welcome to GitHub Pages
-
-You can use the [editor on GitHub](https://github.com/NC256/nc256.github.io/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
-
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
 ### Markdown
 
