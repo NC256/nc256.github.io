@@ -1,20 +1,11 @@
 ---
 layout: home
-title:  "Home Page"
-date:   2020-07-05
 ---
 
 ## Welcome to my Blog!
 
 This is where my articles exist.
 
-<ul>
-  {% for post in site.posts %}
-    <li>
-      <a href="{{ post.url }}">{{ post.title }}</a>
-    </li>
-  {% endfor %}
-</ul>
 
 ### Markdown
 

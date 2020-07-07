@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Welcome to Jekyll!"
-author: "Nicholas Clark"
+author: "Jekyll Autogeneration"
 date:   2020-07-03 19:59:21 -0400
 categories: jekyll update
 ---

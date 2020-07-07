@@ -3,7 +3,7 @@
 @import "rouge-base16-dark.scss";
 
 body {
-  padding:0px 0 20px 0px;
+  padding:0px 0 0px 0px;
   margin: 0px;
   font:14px/1.5 "OpenSansRegular", "Helvetica Neue", Helvetica, Arial, sans-serif;
   color:#f0e7d5;
@@ -79,7 +79,7 @@ strong {
   max-width:750px;
   margin:0 auto;
   position:relative;
-  padding: 0 20px;
+  padding: 10px 20px 0px;
 }
 
 section img {
@@ -158,7 +158,7 @@ dt {
   z-index: 100;
   left:0;
   top: 0px;
-  height: 50px;
+  height: 55px;
   width: 100%;
   position: fixed;
   background: url(../images/nav-bg.gif) #353535;
@@ -167,10 +167,9 @@ dt {
 
   nav {
     max-width: 750px;
-    margin: 0 auto;
-    padding: 0 10px;
     background: blue;
-    margin: 6px auto;
+    margin: 3px 570px;
+
 
     li {
       font-family: 'OpenSansLight', "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -205,13 +204,8 @@ dt {
         }
       }
 
-      &.fork {
+      &.navlinks {
         float: left;
-        margin-left: 0px;
-      }
-
-      &.downloads {
-        float: right;
         margin-left: 6px;
       }
 
@@ -224,10 +218,34 @@ dt {
   }
 }
 
+#footer {
+  max-width:750px;
+  border: 0;
+  outline: none;
+  padding: 0px 0px 30px 0px;
+  margin: 0px 0;
+
+  .credits {
+    font-size: 11px;
+    font-family: 'OpenSansRegular', "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: normal;
+    color: #696969;
+    margin-top: -10px;
+
+    &.left {
+      float: left;
+    }
+
+    &.right {
+      float: right;
+    }
+  }
+}
+
 section {
   max-width:750px;
-  padding: 10px 0px 0px 0px;
-  margin: 50px 0;
+  padding: 60px 0px 0px 0px;
+  margin: 0px 0;
 
   #title {
     border: 0;

@@ -1,6 +1,7 @@
 ---
 layout: post
-title:  "Testing Mathjax in Post"
+title:  "Testing Mathjax in a Post"
+author: "Nicholas Clark"
 date:   2020-07-04
 mathjax: true
 ---
